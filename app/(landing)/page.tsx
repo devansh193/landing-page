@@ -4,7 +4,7 @@ import { Work } from "@/components/Landing/work";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="">
       <Main />
       <Work />
     </div>

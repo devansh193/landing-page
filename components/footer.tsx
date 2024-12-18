@@ -5,7 +5,7 @@ import TestifyLogo from "./logo/Logo";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col">
+    <div className="hidden md:flex flex-col">
       <div className="flex items-center justify-evenly py-24 p-4 w-full bg-[#AECEDE]">
         <div className="flex items-center justify-center gap-x-2">
           <TestifyLogo />
